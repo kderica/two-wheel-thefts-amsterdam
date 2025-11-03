@@ -5,7 +5,7 @@ A small data project analyzing reported bicycle thefts in Amsterdam, with an emp
 ### Repository contents
 - `analysis.ipynb`: Main notebook used to clean, analyze, and visualize the data.
 - `2024_bikes.csv`: Bike theft counts for 2024 by Amsterdam neighborhood/buurt. 
-- `last_4_years.csv`: Bike theft counts (city and neighborhoods) across multiple recent years.
+- `Misdrijven__soort_misdrijf__plaats_03112025_180137.csv`: Total amounts of bike thefts across last 10 years.
 - `INDELING_BUURT.csv`: Amsterdam neighborhood (buurt) reference with codes, names, centroids, and polygons.
 - `amsterdam_bike_thefts_2024.html`: Interactive Leaflet/Folium map generated from the notebook.
 
@@ -38,7 +38,7 @@ jupyter notebook analysis.ipynb
 - Ensure the CSV files remain in the project root or update paths inside the notebook accordingly.
 
 ### Data sources
-- `2024_bikes.csv` and `last_4_years.csv`: obtained from the Police Open Data portal using different filters, then cleaned (including some manual cleaning): https://data.politie.nl/#/Politie/nl/dataset/47018NED/table?ts=1762120143951
+- `2024_bikes.csv` and `Misdrijven__soort_misdrijf__plaats_03112025_180137.csv`: obtained from the Police Open Data portal using different filters, then cleaned (including some manual cleaning): https://data.politie.nl/#/Politie/nl/dataset/47018NED/table?ts=1762120143951
 - `INDELING_BUURT.csv`: neighborhood geometries and attributes from the Municipality of Amsterdam open geodata: https://maps.amsterdam.nl/open_geodata/
 
 
